@@ -1,6 +1,7 @@
-h1{color:blue;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 20px;}
-h2{color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;}
-h3{color:black;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 14px;}
+h1{color:blue;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 16px;}
+h2{color:#111;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 14px;}
+h3{color:#111;font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 12px;}
+
 header .header-brand{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
@@ -11,5 +12,24 @@ header .header-brand{
     display: block;
     margin: 0 auto;
     text-align: center;
+    padding: 20px 0;
 }
-body{font-family: Arial, Helvetica, sans-serif;font-size: 12px;}
+
+header nav ul{
+    display: block;
+    margin: 0px auto;
+    padding: 0px 5px;   
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 12px;
+}
+header nav ul li a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #111;
+    text-decoration: none;
+}
+
+body{font-family: Arial, Helvetica, sans-serif;font-size: 12px; color: #111;}
