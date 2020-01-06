@@ -18,7 +18,8 @@ header .header-brand{
 header nav ul{
     display: block;
     margin: 0px auto;
-    padding: 0px 5px;   
+    padding: 0px 5px;
+    width: fit-content;
 }
 header nav ul li{
     display: inline-block;
