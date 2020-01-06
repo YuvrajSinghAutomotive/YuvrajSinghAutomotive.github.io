@@ -6,7 +6,7 @@ header .header-brand{
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     color: #111;
-    font-weight: 900;
+    font-weight: 1000;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
@@ -31,6 +31,28 @@ header nav ul li a{
     font-size: 18px;
     color: #111;
     text-decoration: none;
+    font-weight: 900;
 }
 
 body{font-family: Arial, Helvetica, sans-serif;font-size: 12px; color: #111;}
+
+/*Image Portrait*/
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: max-content;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner-home{
+    width: calc(50vw - 20px);
+    height: calc(50vh - 150px);
+    background-image: url(images/picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
